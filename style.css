@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container {
+    background: linear-gradient(to bottom, #07123a,#0a2267,#113c99);
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    overflow: hidden;
+}
+
+#bulan {
+    left: 65%;
+    width: 200px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+#gunung {
+    width: 750px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%
+
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+
+}
+
+.text h1 {
+    font-size: 35px;
+    font-family: "playfair display";
+}
+
+.text p {
+    font-size: 20px;
+    font-family: "antic didone";
+    margin-top: 30px;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content {
+    position: relative;
+    top: 75px;
+    padding-bottom: 75px;
+    
+}
+
+.text-content {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "antic didone";
+}
+
+.text-content .hello {
+    color: #a20000;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.text-content .personal {
+    font-weight: lighter;
+}
+
+hr {
+    border: dotted #a20000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skilljudul {
+    text-align: center;
+    color: #a20000;
+    font-size: 4rem;
+    font-family:"bebas neue";
+    font-weight: lighter;
+}
+
+.skills img {
+    width: 200px;
+    float: left;
+    
+}
+
+.skills h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #131b91;
+    margin-bottom: 20px;
+    font-family: "antic didone";
+
+}
+
+.text-skill {
+    
+    padding-left: 230px;
+    padding-top: 35px;
+
+}
+
+.skills {
+    position: relative;
+    padding-bottom: 100px;
+    font-family: "antic didone";
+    font-weight: lighter;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+  
+}
+
+.skill1 {
+    
+    padding-bottom: 200px;    
+}
+
+.skills img {
+    border-radius: 50%;
+}
+
+.get-in h2 {
+    font-size: 4rem;
+    font-family:"bebas neue";
+    font-weight: lighter;
+    color: #a20000;
+    text-align: center;
+}
+
+.get-in {
+    text-align: center;
+}
+
+.contact {
+ background-color: #a20000;
+ color: aliceblue;
+ padding: 10px;
+ margin-top: 30px;
+ border: none;
+ border-radius: 8px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.91);
+    height: 200px;
+    padding: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.link a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "antic didone";
+}
+
+.link {
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.copyright {
+    font-weight:lighter;
+    font-family: "playfair display";
+}
