@@ -27,7 +27,6 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 100%
 
 }
 
@@ -113,8 +112,9 @@ hr {
 
 .text-skill {
     
-    padding-left: 230px;
+    padding-left: 23px;
     padding-top: 35px;
+    
 
 }
 
@@ -184,4 +184,91 @@ footer {
 .copyright {
     font-weight:lighter;
     font-family: "playfair display";
+}
+
+@media (max-width:767px) {
+    #bulan {
+        width: 100px;
+        left: 65%;
+    }
+
+    #gunung {
+        width: 600px;
+    }
+
+    .text h1 {
+    font-size: 28px;
+    font-family: "playfair display";
+    }
+
+    .text p {
+    font-size: 18px;
+    font-family: "antic didone";
+    margin-top: 20px;
+    }
+
+    .text {
+        top: 34%;
+    }
+
+    .text-content .personal {
+    font-weight: lighter;
+    font-size: 18px;
+    }
+
+    .skills img {
+    width: 100px;
+    float: left;
+    
+    }
+
+    .skill1 {
+        padding-bottom: 80px;
+    }
+
+    .skills h3 {
+        font-size: 25px;
+    }
+
+    .skills p {
+        font-size: 10px;
+    }
+
+    .skills {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .text-skill {
+    
+    padding-left: 130px;
+    padding-top: 10px;
+    
+
+}
+
+    .skilljudul {
+        font-size: 50px;
+    }
+
+    .get-in h2 {
+        font-size: 49px;
+        margin-bottom: 15px;
+    }
+
+    .get-in h3 {
+        font-size: 18px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .get-in p {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+
+
 }
